@@ -138,6 +138,19 @@ function playSound(sound){
 }
 function playSound(sound, delay){
     setTimeout(function(){
-        playSound(sound);
+        switch(sound){
+        case "highlight": 
+            new Audio("sounds/button-highlight.wav").play();
+            break;
+        case "click":
+            new Audio("sounds/button-click.wav").play();
+            break
+        case "correct":
+            new Audio("sounds/correct.wav").play();
+            break;
+        case "wrong":
+            new Audio("sounds/wrong2.mp3").play();
+            break
+    }
     }, delay);
 }
