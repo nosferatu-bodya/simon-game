@@ -1,0 +1,52 @@
+
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.heading-wrong {
+    color: red;
+}
+
+p {
+    color: grey;
+    font-family: sans-serif;
+}
+
+.name {
+    color: red;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.pressed {
+    box-shadow: 0 0 30px white;
+    height: 210px;
+    width: 210px;
+}
+
+#green {
+    background-color: green;
+}
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#blue {
+    background-color: blue;
+}
